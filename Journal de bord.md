@@ -1,6 +1,6 @@
 
 ---
-title:<Journal de bord>
+<Journal de bord>
 ---
 
 
