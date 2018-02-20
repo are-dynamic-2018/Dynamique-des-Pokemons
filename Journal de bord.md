@@ -1,3 +1,9 @@
+
+---
+title:<Journal de bord>
+---
+
+
 Groupe composé de Julie CHARLES, Léandre POUPINEL, Nahidath GASSA, Neevath RAVICHANDRAN.
 
 #JOURNAL DE BORD
