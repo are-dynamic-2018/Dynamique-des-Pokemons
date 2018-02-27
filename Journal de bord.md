@@ -23,5 +23,5 @@ Séquence: Mardi 20 février, 8h30 à 12h45
 Mardi 27 février. 11h51
 Auteur: Nahidath GASSA
 
-   Le 27 février, nous avons commencé à coder nos différentes simulations. Nous avons fini de coder le déplacements des espèces sur une zone de forme carrée et nous avons aussi fini de coder le vieillesement des espèces. Le déplacement des espèces se fait à l'aide d'une matrice, on a parcouru cette matrice afin de savoir si l'espèce peut se déplacer d'une case à l'autre si et seulement si la case est vide. Le vieillessemnt des espèces se fait grâce à une matrice aléatoire de taille 5, allant de 0 à 500 et elle nous permet de dire si l'espèce est morte ou vivante en fonction de l'âge.
+   Le 27 février, nous avons commencé à coder nos différentes simulations. Nous avons presque fini de coder le déplacements des espèces sur une zone de forme carrée et nous avons aussi fini de coder le vieillesement des espèces. Le déplacement des espèces se fait à l'aide d'une matrice, on a parcouru cette matrice afin de savoir si l'espèce peut se déplacer d'une case à l'autre si et seulement si la case est vide. Le vieillessemnt des espèces se fait grâce à une matrice aléatoire de taille 5, allant de 0 à 500 et elle nous permet de dire si l'espèce est morte ou vivante en fonction de l'âge. 
    
