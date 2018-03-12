@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title: "Projet sur la dynamique des Pokemons"
 description: "-Julie CHARLES -Léandre POUPINEL -Nahidath GASSA -Neevath RAVICHANDRAN"
-github:
-  repository_url: https://are-dynamic-2018.github.io/Dynamique-des-Pokemons/Journal%20de%20bord
-
+webrick:
+  headers:
+    journal:  https://are-dynamic-2018.github.io/Dynamique-des-Pokemons/Journal%20de%20bord
+  
