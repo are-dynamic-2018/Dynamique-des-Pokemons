@@ -38,7 +38,7 @@ Séquence: Mardi 6 mars, 8h30 à 12h45
   
 ---
 
-Auteur:Julie CHARLES
+Auteur: Julie CHARLES
 Séquence: Mardi 13 mars, 8h30 à 12h30
 
   Nous avons discuté l'optimisation et la lisibilité de notre programme en implémentant les fontions position et voisin. La fonction position rend une chaine de caractères décrivant la postion de l'individu dans le tableau en fonction de ses indices ( Est-il dans un bord ? un coin ? ). La fonction voisin rend une liste de l'ensemble des postions des voisins d'un individu.
