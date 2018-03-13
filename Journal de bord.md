@@ -35,3 +35,13 @@ Auteur: Léandre POUPINEL
 Séquence: Mardi 6 mars, 8h30 à 12h45
 
   Le 6 mars, nous avons fini de coder le déplacement des rattatas et nous avons codé le code sur l'accouplement entre les rattatas et entre les mangloutons. Nous nous sommes basé sur le code de déplacement des rattatas pour déterminer si les rattatas peuvent s'accoupler tant que ils ont de la place et tant que ils ont une femelle à côté. Nous avons commencé à coder la probabilité de que les rattatas se fassent manger par les mangloutons. Cette probabilité dépendra du nombre de mangloutons autour de lui.
+  
+---
+
+Auteur:Julie CHARLES
+Séquence: Mardi 13 mars, 8h30 à 12h30
+
+  Nous avons discuté l'optimisation et la lisibilité de notre programme en implémentant les fontions position et voisin. La fonction position rend une chaine de caractères décrivant la postion de l'individu dans le tableau en fonction de ses indices ( Est-il dans un bord ? un coin ? ). La fonction voisin rend une liste de l'ensemble des postions des voisins d'un individu.
+  Ces fonctions et l'utilisation de listes et de boucles permet d'éviter la présence d'énormes blocs répétitifs dans la fonction finale.
+  Nous avons commencé à réflechir à la représentation graphique de notre simulation.
+  
