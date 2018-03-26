@@ -1,3 +1,6 @@
+
+import numpy as np
+
 def vieillesse(M,i,j):
     if M[i][j]%100==99:
         M[i][j]=0
