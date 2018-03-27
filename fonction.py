@@ -68,9 +68,9 @@ def accouplement(i,j, Vide):
     n=np.random.choice(np.arange(0,100))
     if len(acc)*10 > n:
         e=np.random.choice(np.arange(0,len(Vide)))
-        sexe=np.random.choice(np.arange(1,2))
+        sexe=np.random.choice(np.arange(1,3))
         x,y=Vide[e]
-        M[x,y]=M[i][j]//1000+sexe*100
+        M[x,y]=M[i][j]//1000*1000+sexe*100
     return
 
 def manger(Ma,Ar,M,i,j):
