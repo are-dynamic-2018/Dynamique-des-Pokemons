@@ -29,7 +29,7 @@ def position(i,j):
             return "CoinBasD"
         else:
             return "CotD"
-    elif i==len(M):
+    elif i==len(M)-1:
         return "CoteBas"
     else:
         return "Milieu"
