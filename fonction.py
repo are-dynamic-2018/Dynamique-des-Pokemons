@@ -56,3 +56,47 @@ def voisin(i,j):
         Le=[(i,j-1),(i+1,j-1),(i+1,j),(i+1,j+1),(i,j+1)]
     return Le
     
+def deplacement(i,j,Vide):
+    e=np.random.choice(np.arrange(0,len(Vide)))
+    x,y=Vide[e]
+    M[x,y]=M[i][j]
+    M[i][j]=0    
+    return    
+
+
+def accouplement(i,j, Vide):
+    n=np.random.choice(np.arange(0,100))
+    if len(acc)*10 > n:
+        e=np.random.choice(np.arange(0,len(Vide)))
+        sexe=np.random.choice(np.arange(1,2))
+        x,y=Vide[e]
+        M[x,y]=M[i][j]//1000+sexe*100
+    return
+
+def manger(Ma,Ar,M,i,j):
+    n=np.random.choice(np.arange(0,100))
+    if M[i][j]//1000==1:
+        if n<10*(len(Ma)+len(Ar)):
+            M[i][j]=0
+    elif M[i][j]//1000==3:
+        if n<10*len(Ma):
+            M[i][j]=0
+    return i,j
+
+def matrice_alea():
+    N=50
+    M=np.zeros((N,N))
+    for i in range (0,N):
+        for j in range (0,N):
+            al_e=np.random.choice(np.arange(0,4))
+            al_s=np.random.choice(np.arange(1,3))
+            al_a=np.random.choice(np.arange(0,100))
+            if al_e==0:
+                M[i][j]=1000+al_s*100+al_a
+            elif al_e==1:
+                M[i][j]=2000+al_s*100+al_a
+            elif al_e==2:
+                M[i][j]=3000+al_s*100+al_a
+            elif al_e==3:
+                M[i][j]=4000+al_s*100+al_a
+    return M
