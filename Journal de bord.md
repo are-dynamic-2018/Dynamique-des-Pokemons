@@ -45,3 +45,9 @@ Séquence: Mardi 13 mars, 8h30 à 12h30
   Ces fonctions et l'utilisation de listes et de boucles permet d'éviter la présence d'énormes blocs répétitifs dans la fonction finale.
   Nous avons commencé à réflechir à la représentation graphique de notre simulation.
   
+ --- 
+
+Auteur: Léandre POUPINEL 
+Séquence: Mardi 3 avril, 8h30 à 12h45
+
+  On a fait des simulations différentes et nous avons corrigé certains aspect de notre code afin de lui donner un aspect plus imperatif. En ce qui concerne les simulations, nous avons fait une simulation avec des rattatas et une autre simulation avec rattatas et manglouton. On a en fonction des resultats des simulations modifié certaines lois aleatoires pour que ce soit plus réaliste.
